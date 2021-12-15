@@ -90,10 +90,29 @@
        <p><a href="muddypaws.jpg">Fearless Sidekick</a> - Kirby passed in Aug 2016</p>
        <p><strong>Website</strong>: I am grateful to <a href="https://xinyue-lin.com/">Xinyue Lin</a> for building my website. Please feel welcome to use and re-purpose the code for the website, which you can find at my <a href="https://github.com/gautamrao/gautamrao.github.io">GitHub repository</a>.</p>
 
-      </section>
+     
+
+</section>
       <footer>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="./js/scale.fix.js"></script>
+    
+    <script>
+		function toggle(pid) {
+            objid = "pubabs_" + pid.toString();
+            linkid = "pubabslink_" + pid.toString();
+            absobj = document.getElementById(objid);
+            linkobj = document.getElementById(linkid);
+			if (absobj.style.display === "none") {
+				absobj.style.display = "inline";
+                linkobj.style.display = "none";
+			}
+			else {
+				absobj.style.display = "none";
+                linkobj.style.display = "inline";
+            }
+		}
+	</script>
   </body>
 </html>
