@@ -110,6 +110,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  overflow-y:scroll
 }
 
 header ul {
