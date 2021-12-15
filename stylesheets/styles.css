@@ -4,7 +4,6 @@ body {
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
-  overflow-y:scroll
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +57,6 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
-  overflow-y:scroll
 }
 
 blockquote {
@@ -139,7 +137,7 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:8px;
+  font-size:11px;
   color:#999;
   display:block;
   text-align:center;
